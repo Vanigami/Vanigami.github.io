@@ -1,5 +1,6 @@
 body {
-  background: radial-gradient(#e5e5e5, #ffff, #e5e5e5);
+  background: url(../images/paperbg.png) no-repeat center center fixed;
+  width: 50;
 }
 
 .card {
@@ -8,4 +9,19 @@ body {
 
 .card:hover {
   box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+.card-body {
+  background-color: transparent;
+  padding: 3rem 0 !important;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  padding: 0.4re, 1.9rem;
+}
+
+.container-fluid .row {
+  background-color: transparent;
+  padding-top: 6rem;
 }
