@@ -1,18 +1,14 @@
 import React, { Component } from "react";
+
 import ProjectCard from "./ProjectCard";
 import Projects from "./Projects";
-
 import "../App.css";
-const projectData = [
-  {
-    name: "Training Session",
-  },
-];
 class Home extends React.Component {
   render() {
     return (
       <div>
-        <ProjectCard />
+        <h2 className="brandFont">Vanna Winland</h2>
+        <Projects />
       </div>
     );
   }

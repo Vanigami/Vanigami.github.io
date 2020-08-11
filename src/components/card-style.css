@@ -14,14 +14,32 @@ body {
 .card-body {
   background-color: transparent;
   padding: 3rem 0 !important;
+  font-family: "Special Elite", cursive;
+}
+
+.card-title {
+  font-family: "Special Elite", cursive;
 }
 
 .card-text {
   font-size: 0.9rem;
   padding: 0.4re, 1.9rem;
+  font-family: "Special Elite", cursive;
 }
 
 .container-fluid .row {
   background-color: transparent;
   padding-top: 6rem;
+}
+
+body {
+  margin: 0;
+  font-family: "Special Elite", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
