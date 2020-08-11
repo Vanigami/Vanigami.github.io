@@ -1,17 +1,16 @@
 import React, { Component } from "react";
-import Projects from "./Projects";
-import "../App.css";
+import ProjectCard from "./ProjectCard";
 
-export default class Home extends Component {
+import "../App.css";
+const projectData = [
+  {
+    name: "Training Session",
+  },
+];
+class Home extends React.Component {
   render() {
-    return (
-      <>
-        <div className="html">
-          <h1>Future Portfolio Website.</h1> <br />
-          <h2>Under Construction</h2>
-        </div>
-        <Projects />
-      </>
-    );
+    return <div></div>;
   }
 }
+
+export default Home;
