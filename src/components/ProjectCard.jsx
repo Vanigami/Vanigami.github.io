@@ -9,7 +9,7 @@ const ProjectCard = (props) => {
         <img src={props.imgsrc} alt="Image 1" className="card-img-top" />
       </div>
       <div className="card-body text-dark"></div>
-      <h4 className="card-title">Training Session</h4>
+      <h4 className="card-title">{props.title}</h4>
       <p className="card-text text-secondary">React/JS</p>
       <a href="#" className=" btn btn-outline-success">
         Go Anywhere
