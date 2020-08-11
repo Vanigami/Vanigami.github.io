@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ProjectCard from "./ProjectCard";
+import Projects from "./Projects";
 
 import "../App.css";
 const projectData = [
@@ -9,7 +10,11 @@ const projectData = [
 ];
 class Home extends React.Component {
   render() {
-    return <div></div>;
+    return (
+      <div>
+        <ProjectCard />
+      </div>
+    );
   }
 }
 
