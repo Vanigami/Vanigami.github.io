@@ -16,6 +16,13 @@ class Home extends React.Component {
           But here you are.
         </p>
         <Projects />
+        <div class="container">
+          <span class="react-logo">
+            <span class="nucleo"></span>
+          </span>
+        </div>
+
+        <p class="title">React</p>
       </div>
     );
   }
