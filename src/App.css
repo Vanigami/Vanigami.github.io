@@ -38,11 +38,13 @@
 }
 
 html {
-  background: url(./images/peace.png) no-repeat center center fixed;
+  background: url(./images/portfoliopeace.png) no-repeat center fixed;
+  background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-image: linear gradient (red, yellow);
   font-family: "Special Elite", cursive;
 }
 
