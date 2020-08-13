@@ -3,7 +3,9 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import "../node_modules/animate.css/animate.min.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 import Projects from "./components/Projects";
 
 ReactDOM.render(
