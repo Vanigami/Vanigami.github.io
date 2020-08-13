@@ -17,50 +17,60 @@ class Home extends React.Component {
           but here you are.
         </p>
         <Projects />
-
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">Languages</th>
-              <th scope="col">Frameworks/Databases</th>
-              <th scope="col">Deployment</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>
-                <div class="container">
-                  <span class="react-logo">
-                    <span class="nucleo"></span>
-                  </span>
-                </div>
-
-                <p class="title">React</p>
-              </td>
-              <td>
-                <div>
-                  <span>
-                    <img class="ruby-logo" src={rubyLogo} alt="ruby-logo" />
-                  </span>
-                </div>
-              </td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
-            </tr>
-          </tbody>
-        </table>
+        <p>
+          <a
+            class="btn btn-primary"
+            data-toggle="collapse"
+            href="#multiCollapseExample1"
+            role="button"
+            aria-expanded="false"
+            aria-controls="multiCollapseExample1"
+          >
+            Toggle first element
+          </a>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-toggle="collapse"
+            data-target="#multiCollapseExample2"
+            aria-expanded="false"
+            aria-controls="multiCollapseExample2"
+          >
+            Toggle second element
+          </button>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-toggle="collapse"
+            data-target=".multi-collapse"
+            aria-expanded="false"
+            aria-controls="multiCollapseExample1 multiCollapseExample2"
+          >
+            Toggle both elements
+          </button>
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+              <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life
+                accusamus terry richardson ad squid. Nihil anim keffiyeh
+                helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                ea proident.
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample2">
+              <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life
+                accusamus terry richardson ad squid. Nihil anim keffiyeh
+                helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                ea proident.
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
