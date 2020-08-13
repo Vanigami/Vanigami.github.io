@@ -80,10 +80,10 @@ body {
 .react-logo:after {
   position: absolute;
   display: inline-block;
-  width: 200px;
-  height: 70px;
+  width: 100px;
+  height: 40px;
   border-radius: 50%;
-  border: 10px solid #00d8ff;
+  border: 6px solid #00d8ff;
 }
 
 .nucleo,
@@ -96,8 +96,8 @@ body {
 }
 
 .nucleo {
-  width: 40px;
-  height: 40px;
+  width: 11px;
+  height: 11px;
   border-radius: 100%;
   background: #00d8ff;
 }
@@ -116,7 +116,7 @@ body {
 }
 
 .title {
-  font-size: 60px;
+  font-size: 25px;
   background: transparent;
   color: #00d8ff;
   width: 250px;
@@ -128,4 +128,30 @@ body {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.ruby-logo {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6rem;
+  animation: jello;
+  animation-duration: 3s;
+}
+
+h2.main-header {
+  font-family: "Special Elite", cursive;
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+}
+
+div.languages {
+  font-family: "Special Elite", cursive;
 }
