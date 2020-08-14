@@ -52,7 +52,9 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Pacifico", cursive;
+  background: transparent;
+  background-color: transparent;
 }
 .container {
   width: 80px;
@@ -178,4 +180,10 @@ div.languages {
 .buttonProject:hover {
   animation: bounce;
   animation-duration: 3s;
+}
+
+.clearDiv {
+  background-color: transparent;
+  background: transparent;
+  padding: 0;
 }

@@ -7,7 +7,7 @@ import "../App.css";
 class Home extends React.Component {
   render() {
     return (
-      <div>
+      <div className="clearDiv">
         <h2 class="main-header ">Vanna Winland</h2>
         <p className="brandFont">
           Hi, my name is Vanna. I'm an English major turned software engineer.{" "}
