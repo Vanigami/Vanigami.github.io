@@ -201,4 +201,14 @@ div.languages {
 .headerimg {
   max-width: 100%;
   height: auto;
+  overflow: hidden;
+}
+
+.rowCard {
+  align-content: center;
+  text-align: center;
+}
+
+.collapse {
+  align-content: center;
 }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ProjectCard from "./ProjectCard";
 import Projects from "./Projects";
-import AboutMeCard from "./AboutMeCard";
+import AboutMe from "./AboutMe";
 import rubyLogo from "../images/ruby.png";
 import brandLogo from "../images/brandLogo.png";
 
@@ -19,7 +19,7 @@ class Home extends React.Component {
           </div>
         </div>
         <Projects />
-        <AboutMeCard />
+        <AboutMe />
 
         <div class="flip-card">
           <div class="flip-card-inner">
