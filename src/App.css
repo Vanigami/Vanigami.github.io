@@ -44,12 +44,11 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-image: linear gradient (red, yellow);
   font-family: "Special Elite", cursive;
 }
 
 .brandFont {
-  font-family: "Special Elite", cursive;
+  font-family: "Pacifico", cursive;
 }
 
 body {
