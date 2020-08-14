@@ -2,20 +2,20 @@ import React, { Component } from "react";
 import ProjectCard from "./ProjectCard";
 import Projects from "./Projects";
 import rubyLogo from "../images/ruby.png";
+import brandLogo from "../images/brandLogo.png";
 import "../App.css";
 
 class Home extends React.Component {
   render() {
     return (
-      <div className="clearDiv">
-        <h2 class="main-header ">Vanna Winland</h2>
-        <p className="brandFont">
-          Hi, my name is Vanna. I'm an English major turned software engineer.{" "}
-          <br />
-          I never thought I'd be sharing stories through the languages of the
-          web, <br />
-          but here you are.
-        </p>
+      <div>
+        <div class="jumbotronHead jumbotron-fluid">
+          <div class="container">
+            <h2 class="main-header ">
+              <img className="headerimg" src={brandLogo} />
+            </h2>
+          </div>
+        </div>
         <Projects />
 
         <div class="flip-card">

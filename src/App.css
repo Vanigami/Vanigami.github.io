@@ -61,7 +61,7 @@ body {
   height: 250px;
   margin: 20px auto 0 auto;
   background: transparent;
-
+  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -147,10 +147,9 @@ body {
 }
 
 h2.main-header {
-  font-family: "Special Elite", cursive;
+  font-family: "Pacifico", cursive;
   display: inline-block;
   margin: 0 0.5rem;
-
   animation: bounce; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s;
 }
@@ -186,4 +185,20 @@ div.languages {
   background-color: transparent;
   background: transparent;
   padding: 0;
+}
+
+.jumbotronHead {
+  background-color: whitesmoke;
+  opacity: 0.8;
+  font-weight: 900;
+}
+
+.headerP {
+  text-align: justify;
+  font-family: "Pacifico", cursive;
+}
+
+.headerimg {
+  max-width: 100%;
+  height: auto;
 }
