@@ -156,3 +156,26 @@ h2.main-header {
 div.languages {
   font-family: "Special Elite", cursive;
 }
+
+.buttonProject {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 white;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+
+  margin: 50px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  animation: wobble;
+  animation-duration: 3s;
+  animation-delay: 2s;
+}
+
+.buttonProject:hover {
+  animation: bounce;
+  animation-duration: 3s;
+}

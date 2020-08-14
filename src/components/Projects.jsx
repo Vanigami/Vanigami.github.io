@@ -10,7 +10,7 @@ class Projects extends Component {
       <div>
         <p>
           <button
-            class="btn btn-primary"
+            class="buttonProject"
             type="button"
             data-toggle="collapse"
             data-target="#collapseExample"
