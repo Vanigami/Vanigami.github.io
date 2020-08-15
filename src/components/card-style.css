@@ -80,3 +80,7 @@
   color: white;
   transform: rotateY(180deg);
 }
+
+span.flipHeading {
+  color: black;
+}
