@@ -167,6 +167,10 @@ div.languages {
   display: inline-block;
   font-size: 20px;
   font-family: "Pacifico", cursive;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  border: black;
+  border-radius: 400px;
 
   margin: 50px 2px;
   cursor: pointer;

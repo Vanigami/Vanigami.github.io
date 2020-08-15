@@ -19,7 +19,9 @@ class Home extends React.Component {
           </div>
         </div>
         <Projects />
-        <AboutMe />
+        <div className="wayOver">
+          <AboutMe />
+        </div>
 
         <div class="flip-card">
           <div class="flip-card-inner">

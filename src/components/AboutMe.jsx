@@ -7,7 +7,7 @@ class AboutMe extends Component {
   render() {
     return (
       <p>
-        <div>
+        <div className="wayOver">
           <Link to="/aboutme" class="buttonProject">
             About Me
           </Link>
