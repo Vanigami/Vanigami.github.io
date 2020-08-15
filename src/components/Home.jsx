@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import ProjectCard from "./ProjectCard";
 import Projects from "./Projects";
 import AboutMe from "./AboutMe";
-import rubyLogo from "../images/ruby.png";
 import brandLogo from "../images/brandLogo.png";
 
 import "../App.css";
+import FlipCard from "./FlipCard";
 
 class Home extends React.Component {
   render() {
@@ -22,18 +22,7 @@ class Home extends React.Component {
         <div className="wayOver">
           <AboutMe />
         </div>
-
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <i class="fab fa-angellist"></i>
-            </div>
-            <div class="flip-card-back">
-              <h1>WEE </h1>
-              <p>Cool</p>
-            </div>
-          </div>
-        </div>
+        <FlipCard />
       </div>
     );
   }
