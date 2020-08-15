@@ -22,7 +22,9 @@ class Home extends React.Component {
         <div className="wayOver">
           <AboutMe />
         </div>
-        <FlipCard />
+        <div class="flipCard">
+          <FlipCard />
+        </div>
       </div>
     );
   }

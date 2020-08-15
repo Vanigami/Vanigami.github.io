@@ -32,7 +32,7 @@ export default class FlipCard extends Component {
                 <span class="flipHeading">Libraries + Frameworks</span>
                 <br />
                 <li>
-                  <span>Ruby on Rails </span>
+                  <span class="flip-card-back">Ruby on Rails </span>
                   <img src={RoRLogo} />{" "}
                 </li>
                 <li>
