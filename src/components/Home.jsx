@@ -10,7 +10,7 @@ import "../App.css";
 class Home extends React.Component {
   render() {
     return (
-      <div>
+      <div class="home-bg">
         <div class="jumbotronHead jumbotron-fluid">
           <div class="container">
             <h2 class="main-header ">
