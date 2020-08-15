@@ -48,6 +48,10 @@ html {
 
 .home-bg {
   background: url(./images/portfoliopeace.png) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .about-me-bg {
