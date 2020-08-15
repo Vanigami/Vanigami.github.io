@@ -17,23 +17,40 @@ export default class FlipCard extends Component {
             </div>
             <div class="flip-card-back">
               <ul>
-                <span>Programming Lanuages</span>
+                <span>Programming Languages</span>
                 <br />
-                <span>Ruby </span>
-                <img src={rubyLogo} /> <br />
-                <span>JavaScript </span>
-                <i class="fab fa-js"></i> <br />
+                <li>
+                  <span>Ruby </span>
+                  <img src={rubyLogo} />
+                </li>
+
+                <li>
+                  <span>JavaScript </span>
+                  <i class="fab fa-js"></i>{" "}
+                </li>
+                <br />
                 <span>Libraries + Frameworks</span>
                 <br />
-                <img src={RoRLogo} />
-                <br />
-                <img src={SinatraLogo} />
-                <br />
-                <img src={reactLogo} />
-                <br />
-                <img src={reduxLogo} />
-                <br />
-                <img src={nodeJSLogo} />
+                <li>
+                  <span>Ruby on Rails </span>
+                  <img src={RoRLogo} />{" "}
+                </li>
+                <li>
+                  <span>Sinatra </span>
+                  <img src={SinatraLogo} />
+                </li>
+                <li>
+                  <span>React </span>
+                  <img src={reactLogo} />
+                </li>
+                <li>
+                  <span>Redux </span>
+                  <img src={reduxLogo} />
+                </li>
+                <li>
+                  <span>NodeJS </span>
+                  <img src={nodeJSLogo} />
+                </li>
               </ul>
             </div>
           </div>

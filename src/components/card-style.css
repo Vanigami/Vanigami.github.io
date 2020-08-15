@@ -38,7 +38,8 @@
   width: 300px;
   height: 250px;
   border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px;
+  font-family: "Pacifico", cursive;
 }
 
 /* This container is needed to position the front and back side */
@@ -49,6 +50,7 @@
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  font-family: "Pacifico", cursive;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
