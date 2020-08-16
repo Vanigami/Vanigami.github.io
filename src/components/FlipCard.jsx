@@ -13,7 +13,14 @@ export default class FlipCard extends Component {
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <i class="fab fa-angellist"></i>
+              <span>Programming Languages</span>
+              <br />
+              <span>&</span>
+              <br />
+              <span>Libraries/Frameworks</span>
+              <br />
+              <br />
+              <i class="fas fa-laptop-code fa-5x"></i>
             </div>
             <div class="flip-card-back">
               <ul>
@@ -33,6 +40,7 @@ export default class FlipCard extends Component {
                 <br />
                 <li>
                   <span class="flip-card-back">Ruby on Rails </span>
+                  <span>Ruby on Rails </span>
                   <img src={RoRLogo} />{" "}
                 </li>
                 <li>
