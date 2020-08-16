@@ -7,9 +7,12 @@ import { Route, Link, useHistory } from "react-router-dom";
 const AboutMeCard = () => {
   return (
     <div class="about-me-bg">
-      <img class="avatar" src={profilepic} />
-      <img class="white-logo" src={whiteLogo} />
-      <div clas="about-me">
+      <div class="avatar">
+        <img class="avatar" src={profilepic} />
+        <img class="white-logo" src={whiteLogo} />
+      </div>
+
+      <div class="about-me">
         <span class="about-me">Hello, my name is Vanna. </span>
         <br />
         <span class="about-me-leftish">
@@ -24,7 +27,7 @@ const AboutMeCard = () => {
           through the languages of the web,
           <br />
         </span>
-        <span class="about-me-leftish4">
+        <span class="about-me-leftish">
           but here you are.
           <br />
         </span>
