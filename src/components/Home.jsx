@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 import Projects from "./Projects";
 import AboutMe from "./AboutMe";
 import brandLogo from "../images/brandLogo.png";
-
+import SocialMediaBar from "./SocialMediaBar";
 import "../App.css";
 import FlipCard from "./FlipCard";
 
@@ -24,6 +24,9 @@ class Home extends React.Component {
         </div>
         <div class="flipCard">
           <FlipCard />
+        </div>
+        <div>
+          <SocialMediaBar />
         </div>
       </div>
     );
