@@ -249,8 +249,8 @@ div.avatar {
 img.avatar {
   border-radius: 50%;
   display: block;
-  max-width: 300px;
-  max-height: 165px;
+  max-width: 345px;
+  max-height: 195px;
   width: auto;
   height: auto;
   margin-left: auto;
@@ -306,8 +306,10 @@ span.about-me-leftish4 {
 
 img.white-logo {
   display: block;
-  max-width: 150px;
-  max-height: 200px;
+  max-width: 345px;
+  position: fixed;
+  top: 15%;
+  max-height: 195px;
   width: auto;
   height: auto;
   margin-right: auto;
@@ -316,7 +318,7 @@ img.white-logo {
 
 div.white-logo {
   display: block;
-  max-width: 300px;
+  max-width: 200px;
   max-height: 200px;
   width: auto;
   height: auto;
@@ -331,7 +333,13 @@ div.flipCard {
   position: auto;
 }
 div.about-me {
-  position: static;
+  display: block;
   text-align: center;
-  margin-top: 250px;
+  margin-top: 380px;
+  top: -10%;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
 }

@@ -9,6 +9,9 @@ const AboutMeCard = () => {
     <div class="about-me-bg">
       <div class="avatar">
         <img class="avatar" src={profilepic} />
+      </div>
+      <div class="white-logo">
+        {" "}
         <img class="white-logo" src={whiteLogo} />
       </div>
 
