@@ -35,10 +35,10 @@ const AboutMeCard = () => {
           <br />
         </span>
         <div class="about-me-row">
-          <div class="col-sm-6 col-center">
+          <div class="row text-center">
             <div class="about-me-card">
               <div class="about-me-card-body">
-                <h5 class="card-title">Special title treatment</h5>
+                <h5 class="card-title">About Me</h5>
                 <p class="about-me-card">
                   After receiving a formal education in English and creative
                   writing at the university of Akron, I never thought that I'd
@@ -64,6 +64,7 @@ const AboutMeCard = () => {
             </div>
           </div>
         </div>
+        <button>Button</button>
       </div>
     </div>
   );

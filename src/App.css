@@ -356,7 +356,11 @@ div.about-me {
 }
 
 .about-me-card {
-  width: 100%;
+  width: 70%;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  position: center;
 }
 
 p.about-me-card {
