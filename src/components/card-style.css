@@ -9,23 +9,23 @@
 .card-body {
   background-color: transparent;
   padding: 3rem !important;
-  font-family: "Special Elite", cursive;
+  font-family: "Pacifico", cursive;
 }
 
 .card-body-long {
   background-color: transparent;
   padding: 2rem !important;
-  font-family: "Special Elite", cursive;
+  font-family: "Pacifico", cursive;
 }
 
 .card-title {
-  font-family: "Special Elite", cursive;
+  font-family: "Pacifico", cursive;
 }
 
 .card-text {
   font-size: 0.9rem;
   padding: 0.4rem, 1.9rem;
-  font-family: "Special Elite", cursive;
+  font-family: "Pacifico", cursive;
 }
 
 .container-fluid .row {

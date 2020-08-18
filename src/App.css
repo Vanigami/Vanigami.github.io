@@ -270,7 +270,7 @@ span.about-me-leftish {
   background-color: white;
   opacity: 0.9;
   position: relative;
-  right: -75px;
+  left: 10px;
 
   font-size: 20px;
 }
@@ -336,10 +336,50 @@ div.about-me {
   display: block;
   text-align: center;
   margin-top: 380px;
-  top: -10%;
-  max-height: 300px;
+  top: -15%;
   width: auto;
   height: auto;
   margin-right: auto;
   margin-left: auto;
+  align-content: center;
+}
+
+/* .col-center {
+  float: none;
+  display: inline-block;
+  margin: auto;
+} */
+.about-me-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.about-me-card {
+  width: 100%;
+}
+
+p.about-me-card {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  word-break: break-word;
+  text-align: justify;
+}
+
+.about-me-card:hover {
+  box-shadow: 10px 10px 25px 3px whitesmoke !important;
+}
+
+div.about-me-card-body {
+  background-color: white;
+  padding: 3rem !important;
+  font-family: "Pacifico", cursive;
+}
+
+.about-me-card-text {
+  font-size: 0.9rem;
+  padding: 0.4rem, 1.9rem;
+  font-family: "Pacifico", cursive;
 }
