@@ -44,6 +44,64 @@
   color: white;
 }
 
+.blog {
+  background: transparent;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+/* about me social media bar  */
+
+.icon-bar {
+  position: fixed;
+  top: 18%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.github {
+  background: transparent;
+  color: black;
+}
+
+.medium {
+  background: transparent;
+  color: black;
+}
+
+.dev {
+  background: transparent;
+  color: white;
+}
+
+.linkedin {
+  background: transparent;
+  color: white;
+}
+
+.youtube {
+  background: transparent;
+  color: white;
+}
+
 .content {
   margin-left: 75px;
   font-size: 30px;

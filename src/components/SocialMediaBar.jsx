@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./social-media-bar.css";
+import blogLogo from "../images/blog-logo-small.png";
 
 export default class SocialMediaBar extends Component {
   render() {

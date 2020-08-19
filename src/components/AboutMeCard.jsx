@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import profilepic from "../images/profilepic.png";
 import whiteLogo from "../images/logowhite.png";
 import "./card-style.css";
+import blogLogo from "../images/blog-logo-web.png";
 import { Route, Link, useHistory } from "react-router-dom";
 
 const AboutMeCard = () => {
@@ -66,7 +67,10 @@ const AboutMeCard = () => {
             </div>
           </div>
         </div>
-        <button>Button</button>
+        <div class="logo">
+          <img class="blog" src={blogLogo} />
+        </div>
+        <button>Back</button>
       </div>
     </div>
   );
