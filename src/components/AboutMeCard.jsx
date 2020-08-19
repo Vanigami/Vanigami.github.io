@@ -80,7 +80,10 @@ const AboutMeCard = () => {
             <img class="blog" src={blogLogo} />
           </a>
         </div>
-        <button>Back</button>
+        <br />
+        <a href="/">
+          <button class="back-button">Back To Home</button>
+        </a>
       </div>
     </div>
   );
