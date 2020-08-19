@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import img3 from "../images/fspaimg.png";
 import SocialMediaBarAbout from "./SocialMediaBarAbout";
+import { Route, Link, useHistory } from "react-router-dom";
 
 export default class Fitness extends Component {
   render() {
@@ -80,7 +81,7 @@ export default class Fitness extends Component {
         </div>
         <container class="related-content">
           You May Also Like:
-          <a href="/TrainingSession"> Training Session</a>
+          <Link to="/TrainingSession"> Training Session</Link>
         </container>
         <footer>
           <button class="back-button">

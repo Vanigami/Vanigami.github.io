@@ -7,7 +7,7 @@ import TrainingSession from "./components/TrainingSession";
 import WineCellar from "./components/WineCellar";
 import Fitness from "./components/Fitness";
 
-// import "App.css";https://vanigami.github.io/Fitness-SPA
+// import "App.css";
 
 function App() {
   return (
@@ -18,10 +18,7 @@ function App() {
           <Route path="/aboutme" component={AboutMeCard} />
           <Route path="/TrainingSession" component={TrainingSession} />
           <Route path="/WineCellar" component={WineCellar} />
-          <Route
-            path="https://vanigami.github.io/Fitness-SPA"
-            component={Fitness}
-          />
+          <Route path="/Fitness-SPA" component={Fitness} />
         </Switch>
       </Router>
     </div>

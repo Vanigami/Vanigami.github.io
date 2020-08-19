@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import img2 from "../images/wcimg.png";
+import { Route, Link, useHistory } from "react-router-dom";
 
 import SocialMediaBarAbout from "./SocialMediaBarAbout";
 
@@ -89,7 +90,7 @@ export default class WineCellar extends Component {
         </div>
         <container class="related-content">
           You May Also Like:
-          <a href="/Fitness-SPA"> Fitness-SPA</a>
+          <Link to="/Fitness-SPA"> Fitness-SPA</Link>
         </container>
         <footer>
           <button class="back-button">

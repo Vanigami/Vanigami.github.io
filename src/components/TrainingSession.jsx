@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import img1 from "../images/tsimg.png";
 import SocialMediaBarAbout from "./SocialMediaBarAbout";
+import { Route, Link, useHistory } from "react-router-dom";
 
 import "../App.css";
 
@@ -87,7 +88,7 @@ export default class TrainingSession extends Component {
         </div>
         <container class="related-content">
           You May Also Like:
-          <a href="/WineCellar"> Wine Cellar</a>
+          <Link to="/WineCellar"> Wine Cellar</Link>
         </container>
         <footer>
           <button class="back-button">

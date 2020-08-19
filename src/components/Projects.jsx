@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Route, Link, useHistory } from "react-router-dom";
+
 import ProjectCard from "./ProjectCard";
 import img1 from "../images/tsimg.png";
 import img2 from "../images/wcimg.png";
@@ -15,19 +17,19 @@ class Projects extends Component {
         >
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <a href="/Fitness-SPA">
-                <img class="carousel" src={img3} alt="First slide" />
-              </a>
+              <Link to="/Fitness-SPA">
+                <img class="carousel" src={img3} alt="First slide" />/
+              </Link>
             </div>
             <div class="carousel-item">
-              <a href="/WineCellar">
+              <Link to="/WineCellar">
                 <img class="d-block " src={img2} alt="Second slide" />
-              </a>
+              </Link>
             </div>
             <div class="carousel-item">
-              <a href="/TrainingSession">
+              <Link to="/TrainingSession">
                 <img class="d-block" src={img1} alt="Third slide" />
-              </a>
+              </Link>
             </div>
           </div>
           <a
