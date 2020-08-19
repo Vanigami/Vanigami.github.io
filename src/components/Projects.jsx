@@ -32,10 +32,18 @@ class Projects extends Component {
                 />
               </div>
               <div className="col-md-4">
-                <ProjectCard imgsrc={img2} title="Wine Cellar" />
+                <ProjectCard
+                  imgsrc={img2}
+                  title="Wine Cellar"
+                  link="/WineCellar"
+                />
               </div>
               <div className="col-md-4">
-                <ProjectCard imgsrc={img3} title="Fitness-SPA" />
+                <ProjectCard
+                  imgsrc={img3}
+                  title="Fitness-SPA"
+                  link="Fitness-SPA"
+                />
               </div>
             </div>
           </div>
