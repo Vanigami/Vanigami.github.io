@@ -12,7 +12,7 @@ class Home extends React.Component {
     return (
       <div class="home-bg">
         <div class="jumbotronHead jumbotron-fluid">
-          <div class="container">
+          <div class="header-container">
             <h2 class="main-header ">
               <img className="headerimg" src={brandLogo} />
             </h2>
