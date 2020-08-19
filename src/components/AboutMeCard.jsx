@@ -34,11 +34,12 @@ const AboutMeCard = () => {
           but here you are.
           <br />
         </span>
+        <br />
         <div class="about-me-row">
           <div class="row text-center">
             <div class="about-me-card">
               <div class="about-me-card-body">
-                <h5 class="card-title">About Me</h5>
+                <h5 class="card-title"> / About Me </h5>
                 <p class="about-me-card">
                   After receiving a formal education in English and creative
                   writing at the university of Akron, I never thought that I'd
@@ -57,6 +58,7 @@ const AboutMeCard = () => {
                   on Rails, Javascript (ES6), Restful APIs, React, Redux, SQL,
                   Postgres, Github, and Heroku.
                 </p>
+                <br />
                 <a href="mailto:vgwinland@gmail.com" class="btn btn-primary">
                   Email Me
                 </a>

@@ -162,7 +162,9 @@ body {
 }
 
 h2.main-header {
-  font-family: "Pacifico", cursive;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   display: inline-block;
   margin: 0 0.5rem;
   animation: bounce; /* referring directly to the animation's @keyframe declaration */
@@ -263,6 +265,8 @@ span.about-me {
   position: static;
   font-weight: 600;
   font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 span.about-me-leftish {
@@ -271,6 +275,8 @@ span.about-me-leftish {
   opacity: 0.9;
   position: relative;
   left: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 
   font-size: 20px;
 }
@@ -281,6 +287,8 @@ span.about-me-leftish2 {
   opacity: 0.9;
   position: static;
   right: -60px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 
   font-size: 20px;
 }
@@ -292,6 +300,8 @@ span.about-me-leftish3 {
   position: relative;
   right: -20px;
   font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 span.about-me-leftish4 {
@@ -356,7 +366,7 @@ div.about-me {
 }
 
 .about-me-card {
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
   float: none;
   margin-bottom: 10px;
@@ -372,14 +382,12 @@ p.about-me-card {
   text-align: justify;
 }
 
-.about-me-card:hover {
-  box-shadow: 10px 10px 25px 3px whitesmoke !important;
-}
-
 div.about-me-card-body {
   background-color: white;
   padding: 3rem !important;
-  font-family: "Pacifico", cursive;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .about-me-card-text {
