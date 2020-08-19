@@ -430,6 +430,9 @@ div.logo:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .back-button:hover {
