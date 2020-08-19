@@ -399,6 +399,9 @@ div.about-me-card-body {
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
+  height: auto;
+  width: auto;
+  min-height: 500px;
 }
 
 .about-me-card-text {
@@ -423,7 +426,7 @@ img.blog {
 div.logo {
   background: white;
   position: center;
-  width: 15%;
+  width: 50%;
   display: block;
   margin: auto;
 }
@@ -496,4 +499,27 @@ div.vid {
   margin-right: auto;
   margin-left: auto;
   align-content: center;
+}
+@media all and (max-width: 479px) {
+  .deskContent {
+    display: none;
+  }
+  .phoneContent {
+    display: block;
+  }
+}
+
+@media all and (min-width: 480px) {
+  .deskContent {
+    display: block;
+  }
+  .phoneContent {
+    display: none;
+  }
+}
+
+p.mob {
+  background: whitesmoke;
+  text-align: justify;
+  padding: 40px;
 }
