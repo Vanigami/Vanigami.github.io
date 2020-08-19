@@ -20,6 +20,22 @@ export default class FlipCard extends Component {
               <br />
               <br />
               <i class="fas fa-laptop-code fa-5x"></i>
+              <br />
+              <br />
+              <br />
+              <i class="fas fa-database fa-5x"></i>
+              <br />
+              <br />
+              <br />
+              <i class="fas fa-code fa-5x"></i>
+              <br />
+              <br />
+              <br />
+              <i class="fas fa-code-branch fa-5x"></i>
+              <br />
+              <br />
+              <br />
+              <i class="fas fa-graduation-cap fa-5x"></i>
             </div>
             <div class="flip-card-back">
               <ul>
