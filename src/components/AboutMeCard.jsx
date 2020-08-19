@@ -57,6 +57,17 @@ const AboutMeCard = () => {
             Javascript (ES6), Restful APIs, React, Redux, SQL, Postgres, Github,
             and Heroku.
           </p>
+          <a href="mailto:vgwinland@gmail.com" class="btn btn-primary">
+            Email Me
+          </a>
+          <br />
+          <footer>
+            <button class="back-button">
+              <a href="/">
+                <i class="far fa-arrow-alt-circle-left fa-3x"></i>
+              </a>
+            </button>
+          </footer>
         </div>
         <div class="deskContent">
           <div class="about-me-row">
@@ -110,9 +121,13 @@ const AboutMeCard = () => {
           </div>
         </div>
         <br />
-        <a href="/">
-          <button class="back-button">Back To Home</button>
-        </a>
+        <footer>
+          <button class="back-button">
+            <a href="/">
+              <i class="far fa-arrow-alt-circle-left fa-3x"></i>
+            </a>
+          </button>
+        </footer>
       </div>
     </div>
   );
