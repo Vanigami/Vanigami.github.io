@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+@media only screen and (max-width: 479px) {
+  #container2 {
+    width: 90%;
+  }
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -70,16 +74,6 @@ body {
   font-family: "Pacifico", cursive;
   background: transparent;
   background-color: transparent;
-}
-.container {
-  width: 80px;
-  height: 250px;
-  margin: 20px auto 0 auto;
-  background: transparent;
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .react-logo {
@@ -347,7 +341,7 @@ div.about-me {
   text-align: center;
   margin-top: 380px;
   top: -15%;
-  width: auto;
+  width: 100%;
   height: auto;
   margin-right: auto;
   margin-left: auto;
@@ -463,4 +457,20 @@ img.tspage {
   height: auto;
   margin-left: auto;
   margin-right: auto;
+}
+
+div.vid {
+  display: block;
+
+  width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  align-content: center;
+}
+
+@media (min-width: 576px) {
+  .custom-class {
+    display: block;
+  }
 }

@@ -9,9 +9,12 @@ export default class TrainingSession extends Component {
     return (
       <div>
         <SocialMediaBarAbout />
-        <img class="tspage" src={img1} />
+
         <div class="about-me-row">
           <div class="row text-center">
+            <div class="container">
+              <img class="tspage" src={img1} />
+            </div>
             <div class="about-me-card">
               <div class="about-me-card-body">
                 <h5 class="card-title"> Training Session </h5>
@@ -39,6 +42,8 @@ export default class TrainingSession extends Component {
                 <br />
                 <i class="far fa-arrow-alt-circle-down fa-4x"></i>
               </div>
+            </div>
+            <div class="container-sm">
               <iframe
                 width="560"
                 height="315"
@@ -50,9 +55,11 @@ export default class TrainingSession extends Component {
             </div>
           </div>
         </div>
-        <a href="/">
-          <button class="back-button">Back To Home</button>
-        </a>
+        <div class="container">
+          <a href="/">
+            <button class="back-button">Back To Home</button>
+          </a>
+        </div>
       </div>
     );
   }
