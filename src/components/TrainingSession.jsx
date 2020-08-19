@@ -47,6 +47,9 @@ export default class TrainingSession extends Component {
             </div>
           </div>
         </div>
+        <a href="/">
+          <button class="back-button">Back To Home</button>
+        </a>
       </div>
     );
   }
