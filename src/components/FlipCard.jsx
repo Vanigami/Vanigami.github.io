@@ -5,7 +5,7 @@ import SinatraLogo from "../images/smallSinatra.png";
 import reactLogo from "../images/reactLogo.png";
 import reduxLogo from "../images/reduxLogo.png";
 import nodeJSLogo from "../images/smallNodeJS.png";
-
+import postgresLogo from "../images/postgrelogo-tiny.png";
 export default class FlipCard extends Component {
   render() {
     return (
@@ -60,7 +60,21 @@ export default class FlipCard extends Component {
                   <img src={nodeJSLogo} />
                 </li>
                 <br />
-                <span class="flipHeading">Libraries + Frameworks</span>
+                <span class="flipHeading">Databases</span>
+                <br />
+                <li>
+                  <span>SQL </span>
+                  <i class="fas fa-database"></i>
+                </li>
+                <li>
+                  <span>Postgresql </span>
+                  <img src={postgresLogo} />
+                </li>
+                <br />
+                <span class="flipHeading">Deployment</span>
+                <br />
+                <br />
+                <span class="flipHeading">Education</span>
                 <br />
               </ul>
             </div>
