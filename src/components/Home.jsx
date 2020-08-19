@@ -11,13 +11,11 @@ class Home extends React.Component {
   render() {
     return (
       <div class="home-bg">
-        <div class="jumbotronHead jumbotron-fluid">
-          <div class="header-container">
-            <h2 class="main-header ">
-              <img className="headerimg" src={brandLogo} />
-            </h2>
+        <header>
+          <div class="jumbotronHead jumbotron-fluid">
+            <img className="headerimg" src={brandLogo} />
           </div>
-        </div>
+        </header>
         <Projects />
         <div className="wayOver">
           <AboutMe />
