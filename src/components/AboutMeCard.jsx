@@ -8,7 +8,7 @@ import SocialMediaBarAbout from "./SocialMediaBarAbout";
 
 const AboutMeCard = () => {
   return (
-    <div class="about-me-bg">
+    <div>
       <SocialMediaBarAbout />
 
       <div class="avatar">
@@ -42,30 +42,32 @@ const AboutMeCard = () => {
         </span>
         <br />
         <div class="phoneContent">
-          <p class="mob">
-            After receiving a formal education in English and creative writing
-            at the university of Akron, I never thought that I'd find myself
-            storytelling through the languages of the web. Coding turned from a
-            hobby into a pursuit, merging my love for writing and interest in
-            tech. Soon after finding community among software engineering groups
-            on the web, I decided to pursue a career as a full-stack developer.
-            I took my first steps towards that goal at Flatiron School's
-            full-stack software engineering program. While studying at Flatiron,
-            I had the opportunity to meet and work with many talented
-            individuals. I'm proud to be a recent Flatiron alumni and look
-            forward to lending my critical and creative thinking skills to a
-            company who values innovation and creativity. I have experience
-            building applications with the following tech: Ruby on Rails,
-            Javascript (ES6), Restful APIs, React, Redux, SQL, Postgres, Github,
-            and Heroku. <br />
-            <a href="https://vannawinland.myportfolio.com/">
-              Learn more about me by visiting my blog!
+          <div class="home-mob-bg">
+            <p class="mob">
+              After receiving a formal education in English and creative writing
+              at the university of Akron, I never thought that I'd find myself
+              storytelling through the languages of the web. Coding turned from
+              a hobby into a pursuit, merging my love for writing and interest
+              in tech. Soon after finding community among software engineering
+              groups on the web, I decided to pursue a career as a full-stack
+              developer. I took my first steps towards that goal at Flatiron
+              School's full-stack software engineering program. While studying
+              at Flatiron, I had the opportunity to meet and work with many
+              talented individuals. I'm proud to be a recent Flatiron alumni and
+              look forward to lending my critical and creative thinking skills
+              to a company who values innovation and creativity. I have
+              experience building applications with the following tech: Ruby on
+              Rails, Javascript (ES6), Restful APIs, React, Redux, SQL,
+              Postgres, Github, and Heroku. <br />
+              <a href="https://vannawinland.myportfolio.com/">
+                Learn more about me by visiting my blog!
+              </a>
+            </p>
+            <a href="mailto:vgwinland@gmail.com" class="btn btn-primary">
+              Email Me
             </a>
-          </p>
-          <a href="mailto:vgwinland@gmail.com" class="btn btn-primary">
-            Email Me
-          </a>
-          <br />
+            <br />
+          </div>
         </div>
         <div class="deskContent">
           <div class="about-me-row">

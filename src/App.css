@@ -54,7 +54,23 @@ html {
   background-size: cover;
 }
 
+.home-mob-bg {
+  background: url(./images/mob.bg.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .about-me-bg {
+  background: url(./images/neonhelloo.png) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.about-me-mob-bg {
   background: url(./images/neonhelloo.png) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -356,7 +372,7 @@ div.flipCard {
 div.about-me {
   display: block;
   text-align: center;
-  margin-top: 380px;
+  margin-top: 100px;
   top: -15%;
   width: 100%;
   height: auto;
@@ -542,7 +558,9 @@ div.vid {
 p.mob {
   background: whitesmoke;
   text-align: justify;
+
   padding: 40px;
+  color: black;
 }
 
 .carousel-inner img {

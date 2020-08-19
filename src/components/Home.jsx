@@ -10,21 +10,46 @@ import FlipCard from "./FlipCard";
 class Home extends React.Component {
   render() {
     return (
-      <div class="home-bg">
-        <header>
-          <div class="jumbotronHead jumbotron-fluid">
-            <img className="headerimg" src={brandLogo} />
+      <div>
+        <div class="phoneContent">
+          <div class="home-mob-bg">
+            <header>
+              <div class="jumbotronHead jumbotron-fluid">
+                <img className="headerimg" src={brandLogo} />
+              </div>
+            </header>
+            <br />
+            <Projects />
+            <div className="wayOver">
+              <AboutMe />
+            </div>
+            <div class="flipCard">
+              <FlipCard />
+            </div>
+            <div>
+              <SocialMediaBar />
+            </div>
           </div>
-        </header>
-        <Projects />
-        <div className="wayOver">
-          <AboutMe />
         </div>
-        <div class="flipCard">
-          <FlipCard />
-        </div>
-        <div>
-          <SocialMediaBar />
+        <div class="deskContent">
+          <div class="home-bg">
+            <header>
+              <div class="jumbotronHead jumbotron-fluid">
+                <img className="headerimg" src={brandLogo} />
+              </div>
+            </header>
+            <br />
+            <Projects />
+            <div className="wayOver">
+              <AboutMe />
+            </div>
+            <div class="flipCard">
+              <FlipCard />
+            </div>
+            <div>
+              <SocialMediaBar />
+            </div>
+          </div>
         </div>
       </div>
     );
