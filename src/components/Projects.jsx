@@ -36,11 +36,7 @@ class Projects extends Component {
             role="button"
             data-slide="prev"
           >
-            <span
-              class="carousel-control-prev-icon"
-              aria-hidden="true"
-              color="black"
-            ></span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
           <a
