@@ -10,6 +10,9 @@ export default class TrainingSession extends Component {
       <div>
         <SocialMediaBarAbout />
         <div class="phoneContent">
+          <div>
+            <img class="mob" src={img1} />}
+          </div>
           <p class="mob">
             Training Session is a web application focused on fitness logging. It
             is built with a Rails API backend and a React-redux Front-End. Uses
@@ -26,6 +29,16 @@ export default class TrainingSession extends Component {
               GitHub Repo <i class="fab fa-github"></i>
             </button>
           </a>
+          <div class="mob">
+            <iframe
+              width="300"
+              height="315"
+              src="https://www.youtube.com/embed/4PK4Rw1SW1k"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
         <div class="deskContent">
           <div class="about-me-row">
@@ -49,14 +62,9 @@ export default class TrainingSession extends Component {
                     middleware to send to and receive data from a server.
                   </p>
                   <br />
-                  <a
-                    href="https://github.com/Vanigami/training-session-frontend"
-                    class="btn btn-primary"
-                  >
-                    {" "}
-                    GitHub Repo <br />
-                    <i class="fab fa-github"></i>
-                  </a>
+                  <button class="repo-btn">
+                    GitHub Repo <i class="fab fa-github"></i>
+                  </button>
                   <br />
                   <br />
                   Check out the demo video below!
@@ -77,11 +85,13 @@ export default class TrainingSession extends Component {
             </div>
           </div>
         </div>
-        <div class="container">
-          <a href="/">
-            <button class="back-button">Back To Home</button>
-          </a>
-        </div>
+        <footer>
+          <button class="back-button">
+            <a href="/">
+              <i class="far fa-arrow-alt-circle-left fa-3x"></i>
+            </a>
+          </button>
+        </footer>
       </div>
     );
   }

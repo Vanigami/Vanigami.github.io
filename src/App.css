@@ -436,8 +436,8 @@ div.logo:hover {
 }
 
 .back-button {
-  background-color: #ddd;
-  border: none;
+  background-color: #2c3552;
+  border: violet;
   color: black;
   padding: 10px 20px;
   text-align: center;
@@ -445,7 +445,7 @@ div.logo:hover {
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 20px;
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
@@ -555,4 +555,18 @@ p.mob {
 }
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+img.mob {
+  width: auto;
+  height: auto;
+  margin: auto;
+  max-width: 300px;
+}
+
+div.mob {
+  width: auto;
+  height: auto;
+  margin: auto;
+  max-width: 300px;
 }
