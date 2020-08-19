@@ -6,6 +6,9 @@ import reactLogo from "../images/reactLogo.png";
 import reduxLogo from "../images/reduxLogo.png";
 import nodeJSLogo from "../images/smallNodeJS.png";
 import postgresLogo from "../images/postgrelogo-tiny.png";
+import uaLogo from "../images/ua-logo-smaller.png";
+import flatironLogo from "../images/flatiron-logo-smaller.png";
+import herokuLogo from "../images/heroku-logo-smaller.png";
 export default class FlipCard extends Component {
   render() {
     return (
@@ -13,11 +16,7 @@ export default class FlipCard extends Component {
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <span>Programming Languages</span>
-              <br />
-              <span>&</span>
-              <br />
-              <span>Libraries/Frameworks</span>
+              <span>Experience</span>
               <br />
               <br />
               <i class="fas fa-laptop-code fa-5x"></i>
@@ -36,7 +35,7 @@ export default class FlipCard extends Component {
                   <i class="fab fa-js"></i>{" "}
                 </li>
                 <br />
-                <span class="flipHeading">Libraries + Frameworks</span>
+                <span class="flipHeading">Experience</span>
                 <br />
                 <li>
                   <span class="flip-card-back">Ruby on Rails </span>
@@ -73,9 +72,32 @@ export default class FlipCard extends Component {
                 <br />
                 <span class="flipHeading">Deployment</span>
                 <br />
+                <li>
+                  <span>Heroku </span>
+                  <img src={herokuLogo} />
+                </li>
+                <li>
+                  <span>GitHub Pages</span>
+                  <i class="fab fa-github"></i>
+                </li>
                 <br />
                 <span class="flipHeading">Education</span>
                 <br />
+                <li>
+                  <span>University of Akron </span>
+                  <img src={uaLogo} />
+                  <br />
+                  B.A. English
+                  <br />
+                  August 2013 - May 2017
+                </li>
+                <li>
+                  <span>Flatiron School </span>
+                  <img src={flatironLogo} />
+                  <br />
+                  Full-Stack Software Engineering Bootcamp
+                  <br /> September 2019 - August 2020
+                </li>
               </ul>
             </div>
           </div>
