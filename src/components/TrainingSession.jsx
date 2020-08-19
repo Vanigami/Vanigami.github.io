@@ -11,7 +11,7 @@ export default class TrainingSession extends Component {
         <SocialMediaBarAbout />
         <div class="phoneContent">
           <div>
-            <img class="mob" src={img1} />}
+            <img class="mob" src={img1} />
           </div>
           <p class="mob">
             Training Session is a web application focused on fitness logging. It
