@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eb0be70f.chunk.css",
+    "main.js": "/static/js/main.b1b7a9d3.chunk.js",
+    "main.js.map": "/static/js/main.b1b7a9d3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bfcebc03.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bfcebc03.js.map",
+    "static/css/2.76af33a4.chunk.css": "/static/css/2.76af33a4.chunk.css",
+    "static/js/2.b333ce46.chunk.js": "/static/js/2.b333ce46.chunk.js",
+    "static/js/2.b333ce46.chunk.js.map": "/static/js/2.b333ce46.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a21f29cd179880e46b3c1068c00125dd.js": "/precache-manifest.a21f29cd179880e46b3c1068c00125dd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.76af33a4.chunk.css.map": "/static/css/2.76af33a4.chunk.css.map",
+    "static/css/main.eb0be70f.chunk.css.map": "/static/css/main.eb0be70f.chunk.css.map",
+    "static/js/2.b333ce46.chunk.js.LICENSE.txt": "/static/js/2.b333ce46.chunk.js.LICENSE.txt",
+    "static/media/blog-logo-web.png": "/static/media/blog-logo-web.016309a5.png",
+    "static/media/brandLogo.png": "/static/media/brandLogo.4b3ab80d.png",
+    "static/media/fspaimg.png": "/static/media/fspaimg.fa724ce1.png",
+    "static/media/logowhite.png": "/static/media/logowhite.377d6373.png",
+    "static/media/App.css": "/static/media/portfoliopeace.8cfd8a16.png",
+    "static/media/profilepic.png": "/static/media/profilepic.1615f95e.png",
+    "static/media/tsimg.png": "/static/media/tsimg.e6c53c4b.png",
+    "static/media/wcimg.png": "/static/media/wcimg.851f9999.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bfcebc03.js",
+    "static/css/2.76af33a4.chunk.css",
+    "static/js/2.b333ce46.chunk.js",
+    "static/css/main.eb0be70f.chunk.css",
+    "static/js/main.b1b7a9d3.chunk.js"
+  ]
+}
