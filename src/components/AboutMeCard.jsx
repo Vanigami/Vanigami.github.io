@@ -61,13 +61,6 @@ const AboutMeCard = () => {
             Email Me
           </a>
           <br />
-          <footer>
-            <button class="back-button">
-              <a href="/">
-                <i class="far fa-arrow-alt-circle-left fa-3x"></i>
-              </a>
-            </button>
-          </footer>
         </div>
         <div class="deskContent">
           <div class="about-me-row">
