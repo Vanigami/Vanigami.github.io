@@ -18,7 +18,10 @@ function App() {
           <Route path="/aboutme" component={AboutMeCard} />
           <Route path="/TrainingSession" component={TrainingSession} />
           <Route path="/WineCellar" component={WineCellar} />
-          <Route path="/Fitness-Spa" component={Fitness} />
+          <Route
+            path="https://vanigami.github.io/Fitness-SPA/Fitness-Spa"
+            component={Fitness}
+          />
         </Switch>
       </Router>
     </div>
