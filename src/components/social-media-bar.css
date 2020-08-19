@@ -56,7 +56,7 @@
 
 /* about me social media bar  */
 
-.icon-bar {
+.about-icon-bar {
   position: fixed;
   top: 18%;
   -webkit-transform: translateY(-50%);
@@ -64,45 +64,45 @@
   transform: translateY(-50%);
 }
 
-.icon-bar a {
+.about-icon-bar a {
   display: block;
   text-align: center;
   padding: 12px;
   transition: all 0.3s ease;
-  color: black;
+  color: white;
   font-size: 20px;
 }
 
-.icon-bar a:hover {
+.about-icon-bar a:hover {
   background-color: #000;
 }
 
-.github {
+.about-github {
   background: transparent;
   color: black;
 }
 
-.medium {
+.about-medium {
   background: transparent;
   color: black;
 }
 
-.dev {
+.about-dev {
   background: transparent;
   color: white;
 }
 
-.linkedin {
+.about-linkedin {
   background: transparent;
   color: white;
 }
 
-.youtube {
+.about-youtube {
   background: transparent;
   color: white;
 }
 
-.content {
+.about-content {
   margin-left: 75px;
   font-size: 30px;
 }

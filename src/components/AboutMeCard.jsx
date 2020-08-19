@@ -4,10 +4,13 @@ import whiteLogo from "../images/logowhite.png";
 import "./card-style.css";
 import blogLogo from "../images/blog-logo-web.png";
 import { Route, Link, useHistory } from "react-router-dom";
+import SocialMediaBarAbout from "./SocialMediaBarAbout";
 
 const AboutMeCard = () => {
   return (
     <div class="about-me-bg">
+      <SocialMediaBarAbout />
+
       <div class="avatar">
         <img class="avatar" src={profilepic} />
       </div>
