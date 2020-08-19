@@ -51,7 +51,7 @@ export default class FlipCard extends Component {
                   <i class="fab fa-js"></i>{" "}
                 </li>
                 <br />
-                <span class="flipHeading">Experience</span>
+                <span class="flipHeading">Frameworks + Libraries</span>
                 <br />
                 <li>
                   <span class="flip-card-back">Ruby on Rails </span>

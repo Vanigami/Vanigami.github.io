@@ -6,19 +6,25 @@ export default class SocialMediaBarAbout extends Component {
   render() {
     return (
       <div class="about-icon-bar">
-        <a href="#" class="about-github">
+        <a href="https://github.com/Vanigami" class="about-github">
           <i class="fab fa-github"></i>{" "}
         </a>
-        <a href="#" class="about-medium">
+        <a href="#https://medium.com/@vgwinland" class="about-medium">
           <i class="fab fa-medium"></i>
         </a>
-        <a href="#" class="about-dev">
+        <a href="https://dev.to/vanigami" class="about-dev">
           <i class="fab fa-dev"></i>
         </a>
-        <a href="#" class="about-linkedin">
+        <a
+          href="https://www.linkedin.com/in/vanna-winland/"
+          class="about-linkedin"
+        >
           <i class="fab fa-linkedin"></i>
         </a>
-        <a href="#" class="about-youtube">
+        <a
+          href="https://www.youtube.com/channel/UCdrxh77yAZZB3S_IPKgDsfg?"
+          class="about-youtube"
+        >
           <i class="fab fa-youtube"></i>{" "}
         </a>
       </div>
