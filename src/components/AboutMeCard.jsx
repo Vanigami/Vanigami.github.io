@@ -12,7 +12,9 @@ const AboutMeCard = () => {
       <SocialMediaBarAbout />
 
       <div class="avatar">
-        <img class="avatar" src={profilepic} />
+        <a href="https://vannawinland.myportfolio.com/">
+          <img class="avatar" src={profilepic} />
+        </a>
       </div>
       <div class="white-logo">
         {" "}
@@ -55,7 +57,10 @@ const AboutMeCard = () => {
             company who values innovation and creativity. I have experience
             building applications with the following tech: Ruby on Rails,
             Javascript (ES6), Restful APIs, React, Redux, SQL, Postgres, Github,
-            and Heroku.
+            and Heroku. <br />
+            <a href="https://vannawinland.myportfolio.com/">
+              Learn more about me by visiting my blog!
+            </a>
           </p>
           <a href="mailto:vgwinland@gmail.com" class="btn btn-primary">
             Email Me
