@@ -570,3 +570,7 @@ div.mob {
   margin: auto;
   max-width: 300px;
 }
+
+container.related-content {
+  color: #dcd5d5;
+}

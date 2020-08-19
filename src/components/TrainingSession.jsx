@@ -85,10 +85,14 @@ export default class TrainingSession extends Component {
             </div>
           </div>
         </div>
+        <container class="related-content">
+          You May Also Like:
+          <a href="/WineCellar"> Wine Cellar</a>
+        </container>
         <footer>
           <button class="back-button">
             <a href="/">
-              <i class="far fa-arrow-alt-circle-left fa-3x"></i>
+              <i class="fas fa-home"></i>
             </a>
           </button>
         </footer>

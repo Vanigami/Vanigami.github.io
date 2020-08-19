@@ -87,10 +87,14 @@ export default class WineCellar extends Component {
             </div>
           </div>
         </div>
+        <container class="related-content">
+          You May Also Like:
+          <a href="/Fitness-SPA"> Fitness-SPA</a>
+        </container>
         <footer>
           <button class="back-button">
             <a href="/">
-              <i class="far fa-arrow-alt-circle-left fa-3x"></i>
+              <i class="fas fa-home"></i>
             </a>
           </button>
         </footer>
