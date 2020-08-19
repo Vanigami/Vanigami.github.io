@@ -25,7 +25,11 @@ class Projects extends Component {
           <div className="container-fluid d-flex justify-content-center">
             <div className="row">
               <div className="col-md-4">
-                <ProjectCard imgsrc={img1} title="Training Session" />
+                <ProjectCard
+                  imgsrc={img1}
+                  title="Training Session"
+                  link="/TrainingSession"
+                />
               </div>
               <div className="col-md-4">
                 <ProjectCard imgsrc={img2} title="Wine Cellar" />

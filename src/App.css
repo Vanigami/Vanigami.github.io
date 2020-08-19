@@ -438,3 +438,19 @@ div.logo:hover {
 .back-button:hover {
   background-color: #00304e;
 }
+
+.btn-outline-success {
+  color: white !important;
+  background-color: #00304e !important;
+  border-color: #00304e !important;
+  outline: none;
+  box-shadow: none;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.btn-outline-success:hover {
+  color: #00304e !important;
+  background: white !important;
+}

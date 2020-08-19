@@ -11,7 +11,7 @@ const ProjectCard = (props) => {
       <div className="card-body text-dark"></div>
       <h4 className="card-title">{props.title}</h4>
       <p className="card-text text-secondary">React/JS</p>
-      <a href="/TrainingSession" className=" btn btn-outline-success">
+      <a href={props.link} className=" btn btn-outline-success">
         See More
       </a>
     </div>
