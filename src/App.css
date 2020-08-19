@@ -414,3 +414,7 @@ div.logo {
   display: block;
   margin: auto;
 }
+
+div.logo:hover {
+  background: #00304e;
+}

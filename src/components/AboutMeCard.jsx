@@ -63,12 +63,19 @@ const AboutMeCard = () => {
                 <a href="mailto:vgwinland@gmail.com" class="btn btn-primary">
                   Email Me
                 </a>
+                <br />
+                <br />
+                Check out my blog below!
+                <br />
+                <i class="far fa-arrow-alt-circle-down fa-4x"></i>
               </div>
             </div>
           </div>
         </div>
         <div class="logo">
-          <img class="blog" src={blogLogo} />
+          <a href="https://vannawinland.myportfolio.com/">
+            <img class="blog" src={blogLogo} />
+          </a>
         </div>
         <button>Back</button>
       </div>
