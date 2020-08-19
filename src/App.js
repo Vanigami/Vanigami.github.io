@@ -4,6 +4,8 @@ import Home from "./components/Home";
 import Projects from "./components/Projects";
 import AboutMeCard from "./components/AboutMeCard";
 import TrainingSession from "./components/TrainingSession";
+import WineCellar from "./components/WineCellar";
+import Fitness from "./components/Fitness";
 
 // import "App.css";
 
@@ -15,6 +17,8 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/aboutme" component={AboutMeCard} />
           <Route path="/TrainingSession" component={TrainingSession} />
+          <Route path="/WineCellar" component={WineCellar} />
+          <Route path="/Fitness-Spa" component={Fitness} />
         </Switch>
       </Router>
     </div>
