@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import img1 from "../images/tsimg.png";
+import SocialMediaBarAbout from "./SocialMediaBarAbout";
+
 import "../App.css";
 
 export default class TrainingSession extends Component {
   render() {
     return (
       <div>
+        <SocialMediaBarAbout />
         <img class="tspage" src={img1} />
         <div class="about-me-row">
           <div class="row text-center">
