@@ -5,23 +5,17 @@ import "./card-style.css";
 import blogLogo from "../images/blog-logo-web.png";
 import { Route, Link, useHistory } from "react-router-dom";
 import SocialMediaBarAbout from "./SocialMediaBarAbout";
+import SocialMediaBar from "./SocialMediaBar";
 
 const AboutMeCard = () => {
   return (
-    <div>
-      <SocialMediaBarAbout />
-
+    <div class="home-mob-bg">
       <div class="avatar">
         <a href="https://vannawinland.myportfolio.com/">
           <img class="avatar" src={profilepic} />
         </a>
       </div>
-      <div class="white-logo">
-        {" "}
-        <img class="white-logo" src={whiteLogo} />
-      </div>
-
-      <div class="about-me">
+      <div class="divider-bg">
         <span class="about-me">Hello, my name is Vanna. </span>
         <br />
         <span class="about-me-leftish">
@@ -36,13 +30,11 @@ const AboutMeCard = () => {
           through the languages of the web,
           <br />
         </span>
-        <span class="about-me-leftish">
-          but here you are.
-          <br />
-        </span>
+        <span class="about-me-leftish">but here you are.</span>
         <br />
         <div class="phoneContent">
-          <div class="home-mob-bg">
+          <SocialMediaBarAbout />
+          <div class="about-mob-bg">
             <p class="mob">
               After receiving a formal education in English and creative writing
               at the university of Akron, I never thought that I'd find myself
@@ -63,8 +55,12 @@ const AboutMeCard = () => {
                 Learn more about me by visiting my blog!
               </a>
             </p>
-            <a href="mailto:vgwinland@gmail.com" class="btn btn-primary">
+            <a href="mailto:vgwinland@gmail.com" class="back-button">
               Email Me
+            </a>
+            <br />
+            <a href="https://drive.google.com/file/d/1AdTfdUCW0ro2Siv6FyidTRR9WEEUgR4f/view?usp=sharing">
+              <button class="back-button"> Formal Resume</button>
             </a>
             <br />
           </div>
@@ -96,11 +92,12 @@ const AboutMeCard = () => {
                       Postgres, Github, and Heroku.
                     </p>
                     <br />
-                    <a
-                      href="mailto:vgwinland@gmail.com"
-                      class="btn btn-primary"
-                    >
+                    <a href="mailto:vgwinland@gmail.com" class="back-button">
                       Email Me
+                    </a>
+                    <br />
+                    <a href="https://drive.google.com/file/d/1AdTfdUCW0ro2Siv6FyidTRR9WEEUgR4f/view?usp=sharing">
+                      <button class="back-button"> Formal Resume</button>
                     </a>
                     <br />
                     <br />
@@ -114,6 +111,7 @@ const AboutMeCard = () => {
           </div>
         </div>
         <div class="deskContent">
+          <SocialMediaBar />
           <div class="logo">
             <a href="https://vannawinland.myportfolio.com/">
               <img class="blog" src={blogLogo} />
@@ -124,7 +122,7 @@ const AboutMeCard = () => {
         <footer>
           <button class="back-button">
             <a href="/">
-              <i class="far fa-arrow-alt-circle-left fa-3x"></i>
+              <i class="fas fa-home fa-3x"></i>
             </a>
           </button>
         </footer>

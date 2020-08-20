@@ -37,29 +37,29 @@
   }
 }
 
-html {
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-family: "Special Elite", cursive;
-}
-
 .home-bg {
   background: url(./images/portfoliopeace.png) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow: hidden;
 }
 
 .home-mob-bg {
-  background: url(./images/mob.bg.jpg) no-repeat center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url(./images/mob.bg.jpg);
+  height: 100%;
+  display: block;
+  min-height: 812px;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+div.project {
+  max-width: 375px;
 }
 
 .about-me-bg {
@@ -70,8 +70,17 @@ html {
   background-size: cover;
 }
 
+.project-bg {
+  background: url(./images/lightbulb.jpg) no-repeat center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 375px;
+}
 .about-me-mob-bg {
-  background: url(./images/neonhelloo.png) no-repeat center fixed;
+  background: url(./images/mob.bg.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -196,17 +205,18 @@ div.languages {
 }
 
 .buttonProject {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 white;
-  color: black;
+  box-shadow: 10px 10px 25px 3px #00304e !important;
+
+  color: #dcd5d5;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
 
-  background-color: whitesmoke;
+  background-color: #00304e;
   opacity: 0.9;
   border: black;
   border-radius: 400px;
@@ -232,7 +242,6 @@ div.languages {
 }
 
 .jumbotronHead {
-  background-color: whitesmoke;
   opacity: 0.8;
   font-weight: 900;
 }
@@ -251,6 +260,7 @@ div.languages {
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 10px 10px 25px 3px #00304e !important;
 }
 
 .rowCard {
@@ -261,22 +271,30 @@ div.languages {
 .collapse {
   align-content: center;
 }
+.divider-bg {
+  background: transparent;
+}
 
 h1.about-me {
   font-size: 200px;
-  color: aliceblue;
+  color: #00304e;
   text-align: center;
   display: block;
+  box-shadow: 10px 10px 25px 3px #00304e !important;
 }
 
 div.avatar {
+  box-shadow: 10px 10px 25px 3px #00304e !important;
+
   margin-left: auto;
   margin-right: auto;
   display: block;
+  background-color: transparent;
 }
 
 img.avatar {
   border-radius: 50%;
+  box-shadow: 10px 10px 25px 3px #00304e !important;
   display: block;
   max-width: 345px;
   max-height: 195px;
@@ -288,6 +306,7 @@ img.avatar {
 span.about-me {
   height: auto;
   background-color: white;
+  box-shadow: 10px 10px 25px 3px #00304e !important;
   opacity: 0.8;
   position: static;
   font-weight: 600;
@@ -299,6 +318,7 @@ span.about-me {
 span.about-me-leftish {
   height: 100px;
   background-color: white;
+  box-shadow: 10px 10px 25px 3px #00304e !important;
   opacity: 0.9;
   position: relative;
   left: 10px;
@@ -310,6 +330,7 @@ span.about-me-leftish {
 
 span.about-me-leftish2 {
   height: 100px;
+  box-shadow: 10px 10px 25px 3px #00304e !important;
   background-color: white;
   opacity: 0.9;
   position: static;
@@ -323,6 +344,7 @@ span.about-me-leftish2 {
 span.about-me-leftish3 {
   height: 100px;
   background-color: white;
+  box-shadow: 10px 10px 25px 3px #00304e !important;
   opacity: 0.9;
   position: relative;
   right: -20px;
@@ -334,6 +356,7 @@ span.about-me-leftish3 {
 span.about-me-leftish4 {
   height: 100px;
   background-color: white;
+  box-shadow: 10px 10px 25px 3px #00304e !important;
   opacity: 0.9;
   position: relative;
   left: -50px;
@@ -370,6 +393,7 @@ div.flipCard {
   position: auto;
 }
 div.about-me {
+  background-color: #00304e;
   display: block;
   text-align: center;
   margin-top: 100px;
@@ -390,6 +414,7 @@ div.about-me {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
+  box-shadow: 10px 10px 25px 3px #00304e !important;
 }
 
 .about-me-card {
@@ -410,14 +435,15 @@ p.about-me-card {
 }
 
 div.about-me-card-body {
-  background-color: white;
+  background-color: #dcd5d5;
+  box-shadow: 10px 10px 25px 3px #00304e !important;
+  border-radius: 5%;
   padding: 3rem !important;
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
   height: auto;
   width: auto;
-  min-height: 500px;
 }
 
 .about-me-card-text {
@@ -440,7 +466,8 @@ img.blog {
 }
 
 div.logo {
-  background: white;
+  box-shadow: 10px 10px 25px 3px #00304e !important;
+
   position: center;
   width: 50%;
   display: block;
@@ -453,8 +480,12 @@ div.logo:hover {
 
 .back-button {
   background-color: #2c3552;
+  color: #dcd5d5;
+
+  box-shadow: 10px 10px 25px 3px #00304e !important;
+
   border: violet;
-  color: black;
+
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -503,14 +534,21 @@ div.logo:hover {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.container-project {
+  margin: auto;
+}
+
 .btn-outline-success:hover {
   color: #00304e !important;
   background: white !important;
 }
 
 img.tspage {
+  box-shadow: 10px 10px 25px 3px #00304e !important;
+
+  border-radius: 5%;
   display: block;
-  max-width: 300px;
+  max-width: 500px;
   max-height: 400px;
   width: auto;
   height: auto;
@@ -556,19 +594,35 @@ div.vid {
 }
 
 p.mob {
-  background: whitesmoke;
-  text-align: justify;
+  background: #dcd5d5;
+  box-shadow: 10px 10px 25px 3px #00304e !important;
 
+  text-align: justify;
+  max-width: 375px;
   padding: 40px;
   color: black;
 }
-
+.about-mob-bg {
+  background: transparent;
+}
 .carousel-inner img {
   width: 100%;
   height: 100%;
 }
+div.carousel-container {
+  max-width: 375px !important;
+  border-radius: 5%;
+  box-shadow: 10px 10px 25px 3px #00304e !important;
+
+  margin: auto;
+}
+
+.carousel:hover {
+  box-shadow: 10px 10px 25px 3px #00304e !important;
+}
+
 .carousel {
-  width: 400px !important;
+  width: 300px !important;
   margin: auto;
 }
 .carousel-control-next-icon {
@@ -580,6 +634,7 @@ img.mob {
   height: auto;
   margin: auto;
   max-width: 300px;
+  box-shadow: 10px 10px 25px 3px #00304e !important;
 }
 
 div.mob {
