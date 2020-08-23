@@ -3,6 +3,8 @@ import ProjectCard from "./ProjectCard";
 import Projects from "./Projects";
 import AboutMe from "./AboutMe";
 import brandLogo from "../images/brandLogo.png";
+import whiteLogo from "../images/logowhite.png";
+
 import SocialMediaBar from "./SocialMediaBar";
 import SocialMediaBarAbout from "./SocialMediaBarAbout";
 import "../App.css";
@@ -16,7 +18,7 @@ class Home extends React.Component {
           <div class="home-mob-bg">
             <header>
               <div class="jumbotronHead jumbotron-fluid">
-                <img className="headerimg" src={brandLogo} />
+                <img className="headerimg" src={whiteLogo} />
               </div>
             </header>
             <br />
@@ -37,7 +39,7 @@ class Home extends React.Component {
           <div class="home-bg">
             <header>
               <div class="jumbotronHead jumbotron-fluid">
-                <img className="headerimg" src={brandLogo} />
+                <img className="headerimg" src={whiteLogo} />
               </div>
             </header>
             <br />
