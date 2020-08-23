@@ -94,6 +94,7 @@
 
 /* Style the back side */
 .flip-card-back {
+  text-align: left;
   background-color: whitesmoke;
   color: midnightblue;
   transform: rotateY(180deg);
