@@ -262,6 +262,16 @@ div.languages {
   margin-right: auto;
   box-shadow: 10px 10px 25px 3px #00304e !important;
 }
+
+.grid {
+  box-shadow: 10px 10px 25px 3px #00304e !important;
+
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: transparent !important;
+}
+
 .grid-img {
   display: block;
   max-width: 300px;
@@ -272,16 +282,28 @@ div.languages {
   margin-right: auto;
   box-shadow: 10px 10px 25px 3px #00304e !important;
 }
-.grit-container {
+.grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   background-color: transparent;
   padding: 10px;
 }
 
+.project-desk {
+  display: block;
+  border-radius: 5%;
+  max-width: 500px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 25px 3px #00304e !important;
+}
+
 .projects-img {
   display: block;
-  max-width: 380px;
+  max-width: 300px;
   max-height: 300px;
   width: auto;
   height: auto;
@@ -296,8 +318,8 @@ div.languages {
   font-size: 30px;
   text-align: center;
   display: block;
-  max-width: auto;
-  max-height: auto;
+  max-width: 500px;
+  max-height: 500px;
   width: auto;
   height: auto;
   margin-left: auto;

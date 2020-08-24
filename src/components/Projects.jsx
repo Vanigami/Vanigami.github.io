@@ -9,7 +9,7 @@ import img3 from "../images/fspaimg.png";
 class Projects extends Component {
   render() {
     return (
-      <div>
+      <div class="grid">
         <div class="grid-item">
           <img class="grid-img" src={img1}></img>
         </div>
