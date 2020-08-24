@@ -11,13 +11,19 @@ class Projects extends Component {
     return (
       <div class="grid">
         <div class="grid-item">
-          <img class="grid-img" src={img1}></img>
+          <Link to="/TrainingSession">
+            <img class="grid-img" src={img1}></img>
+          </Link>
         </div>
         <div class="grid-item">
-          <img class="grid-img" src={img2}></img>
+          <Link to="/WineCellar">
+            <img class="grid-img" src={img2}></img>
+          </Link>
         </div>
         <div class="grid-item">
-          <img class="grid-img" src={img3}></img>
+          <Link to="/Fitness-SPA">
+            <img class="grid-img" src={img3}></img>
+          </Link>
         </div>
       </div>
     );
