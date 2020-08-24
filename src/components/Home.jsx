@@ -4,7 +4,7 @@ import Projects from "./Projects";
 import AboutMe from "./AboutMe";
 import brandLogo from "../images/brandLogo.png";
 import yellowLogo from "../images/yellow-logo.png";
-
+import projects from "../images/project-tap.png";
 import SocialMediaBar from "./SocialMediaBar";
 import SocialMediaBarAbout from "./SocialMediaBarAbout";
 import "../App.css";
@@ -22,12 +22,18 @@ class Home extends React.Component {
               </div>
             </header>
             <br />
-            <Projects />
             <div className="wayOver">
               <AboutMe />
             </div>
             <div class="flipCard">
               <FlipCard />
+            </div>
+            <br />
+            <div>
+              <img class="projects-img" src={projects} />
+            </div>
+            <div>
+              <Projects />
             </div>
             <div>
               <SocialMediaBarAbout />
@@ -42,6 +48,7 @@ class Home extends React.Component {
                 <img className="headerimg" src={yellowLogo} />
               </div>
             </header>
+
             <br />
             <Projects />
             <div className="wayOver">
